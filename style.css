@@ -14,7 +14,7 @@
   font-size: 20px;
   color: #fff;
   position: absolute;
-  left: 36%;
+  left: 35%;
   top: 45%;
 }
 
@@ -23,25 +23,25 @@
 }
 .mask-img {
   position: absolute;
-  top: 45%;
+  top: 27%;
   z-index: 1;
 }
 .roar-img {
   position: absolute;
-  top: 38%;
+  top: 20%;
 }
 .card-psg-img {
   position: absolute;
-  left: 85%;
-  top: 15%;
+  left: 80%;
+  top: 10%;
 }
 .rectangle-img {
   position: absolute;
-  left: 91%;
-  top: 51%;
+  left: 88%;
+  top: 34%;
 }
 .football-img {
   position: absolute;
-  left: 92.5%;
-  top: 77%;
+  left: 90%;
+  top: 70%;
 }
