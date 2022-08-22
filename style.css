@@ -1,3 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.896);
+}
+h4,
+h5 {
+  font-family: "Manrope";
+}
+
 .header-text h2 {
   font-family: "Berkshire Swash";
   font-style: normal;
@@ -23,7 +33,7 @@
 }
 .mask-img {
   position: absolute;
-  top: 27%;
+  top: 26%;
   z-index: 1;
 }
 .roar-img {
@@ -44,4 +54,16 @@
   position: absolute;
   left: 90%;
   top: 70%;
+}
+
+.v-img {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}
+
+.budget-img {
+  position: absolute;
+  top: 17%;
+  left: 25%;
 }
