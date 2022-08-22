@@ -7,9 +7,6 @@ h4,
 h5 {
   font-family: "Manrope";
 }
-li {
-  list-style-type: none;
-}
 
 .header-text h2 {
   font-family: "Berkshire Swash";
@@ -57,10 +54,4 @@ li {
   position: absolute;
   left: 90%;
   top: 70%;
-}
-
-.budget-img {
-  position: absolute;
-  top: 17%;
-  left: 25%;
 }
