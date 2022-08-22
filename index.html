@@ -97,7 +97,7 @@
               <div class="card border-0 bg-black" style="width: 18rem; height: 18rem;">
                 <h4 class="text-white mt-4">Selected - V</h4>
                 <div class="ms-3 mt-4 text-start text-white w-auto">
-                    <ol id="selected-player">
+                    <ol id="selected-player" class="ms-5">
                      <!-- <li></li>
                      <li></li>
                      <li></li> -->
@@ -154,31 +154,31 @@
                 </div>
                 <div class="col">
                   <div class="card border-0 bg-black text-white" style="width: 18rem">
-                    <h1 class="budget-title">Budget</h1>
+                    <h4 class="my-4">Budget</h4>
                     <div>
-                      <h4 class="input-text">per player</h4>
-                        <input id="per-player-amount"type="text">
+                      <span class="me-3 text-info">Per Player</span>
+                        <input id="per-player-amount" class="bg-black border text-white" type="text" size="10">
                       </div>
                    
-                    <div class="my-3">
-                      <button id="calculate" class="btn btn-primary w-50">Calculate</button>
+                    <div class="my-4">
+                      <button id="calculate" class="btn btn-warning w-75">Calculate</button>
                     </div>
                   
-                     <h4>Player expense $<span id="player-expense">00</span></h4>
+                     <h5 class="mb-3">Player Expenses<span class="ms-3 text-danger">$</span><span id="player-expense" class="me-2 text-danger">00</span></h5>
                      <div>
-                      <h4 class="input-text">Manager:</h4>
-                        <input type="text" name="" id="manager-amount">
+                        <span class="text-info me-3">Manager</span>
+                        <input class="bg-black border text-white" type="text" id="manager-amount" size="10">
                       </div>
             
-                     <div>
-                      <h4 class="input-text">Coach:</h4>
-                        <input type="text" id="coach-amount">
+                     <div class="my-3">
+                      <span class="text-info me-4">Coach</span>
+                        <input class="bg-black border text-white ms-1" type="text" id="coach-amount" size="10">
                       </div>
                    
                      <div>
-                      <button class="btn-calculate" id="total-calculate"> Calculate Total</button>
+                      <button class="btn btn-warning w-75 my-3" id="total-calculate">Calculate Total</button>
                     </div>
-                     <h4>Total $<span id="cost">00</span></h4>
+                     <h4>Total<span class="ms-2 text-danger">$</span><span id="cost" class="text-danger">00</span></h4>
                   </div>
                   </div>
                 </div>

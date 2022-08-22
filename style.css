@@ -4,7 +4,8 @@ body {
   background-color: rgba(0, 0, 0, 0.896);
 }
 h4,
-h5 {
+h5,
+span {
   font-family: "Manrope";
 }
 
