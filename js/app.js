@@ -4,8 +4,11 @@ function display(selectedPlayerList) {
   const topPlayerList = document.getElementById("selected-players");
   topPlayerList.innerHTML = "";
 
+  if (selectedPlayerList.length >= 5) {
+    alert("Warning you can add only five players, this is your last player");
+  }
+
   for (let i = 0; i < selectedPlayerList.length; i++) {
-    // console.log(selectedPlayerArray[i].playerName);
     const name = selectedPlayerArray[i].playerName;
 
     const ol = document.createElement("ol");
@@ -19,17 +22,12 @@ function display(selectedPlayerList) {
 }
 
 function playerSelected(element) {
-  // console.log(element.parentNode.children);
-  // console.log(element.parentNode.children[0].innerText);
-
   const playerName = element.parentNode.children[0].innerText;
-  // console.log(playerName);
 
   const playerObj = {
     playerName: playerName,
   };
   selectedPlayerArray.push(playerObj);
-  // console.log(selectedPlayerArray.length);
 
   display(selectedPlayerArray);
 }
